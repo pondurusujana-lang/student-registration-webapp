@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Dashboard</title>
 
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f172a;
+    color:#fff;
+}
+.container{
+    width:90%;
+    margin:20px auto;
+}
+h1{
+    text-align:center;
+}
+.form-box,.table-box{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+input,select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:none;
+    border-radius:5px;
+}
+button{
+    padding:10px 20px;
+    background:#7c3aed;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover{
+    background:#5b21b6;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+table th,table td{
+    border:1px solid #555;
+    padding:10px;
+    text-align:center;
+}
+th{
+    background:#7c3aed;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Student Registration Dashboard</h1>
+
+<div class="form-box">
+
+<input type="text" id="id" placeholder="Student ID">
+
+<input type="text" id="name" placeholder="Student Name">
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="text" id="course" placeholder="Course">
+
+<button onclick="addStudent()">Add Student</button>
+
+</div>
+
+<div class="table-box">
+
+<table>
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Course</th>
+<th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script>
+function addStudent(){
+
+let id=document.getElementById("id").value;
+let name=document.getElementById("name").value;
+let email=document.getElementById("email").value;
+let course=document.getElementById("course").value;
+
+if(id==""||name==""||email==""||course==""){
+alert("Fill all fields");
+return;
+}
+
+let table=document.getElementById("studentTable");
+
+let row=table.insertRow();
+
+row.insertCell(0).innerHTML=id;
+row.insertCell(1).innerHTML=name;
+row.insertCell(2).innerHTML=email;
+row.insertCell(3).innerHTML=course;
+
+row.insertCell(4).innerHTML="<button onclick='deleteRow(this)'>Delete</button>";
+
+document.getElementById("id").value="";
+document.getElementById("name").value="";
+document.getElementById("email").value="";
+document.getElementById("course").value="";
+}
+
+function deleteRow(btn){
+btn.parentElement.parentElement.remove();
+}
+</script>
+
+</body>
+  </html>
