@@ -1,8 +1,5 @@
 🎓 Student Registration Dashboard
 
-> A responsive Student Registration Dashboard built using **HTML5, CSS3, and JavaScript** for managing student records through a modern and user-friendly interface.
-
----
 
 📖 Overview
 
@@ -42,7 +39,6 @@ Student-Registration-Dashboard/
 │── README.md
 │── LICENSE
 │── .gitignore
-└── screenshots/
 ```
 
 ---
@@ -138,4 +134,3 @@ Display Student Table
 The **Student Registration Dashboard** is a responsive and user-friendly web application developed using **HTML5, CSS3, and JavaScript**. It demonstrates the implementation of CRUD (Create, Read, Update, Delete) operations, DOM manipulation, and responsive web design in a practical project. The application provides an efficient way to manage student records through a clean and interactive interface. This project serves as a strong foundation for learning front-end web development and can be extended with features such as Local Storage, database integration, user authentication, and cloud deployment in future versions.
 
 
-## ⭐ If you like this project, don't forget to star the repository!
