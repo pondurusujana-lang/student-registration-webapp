@@ -69,17 +69,17 @@ Remove unwanted student records safely.
 
 ---
 
-# 🎯 Objectives
+🎯 Objectives
 
-- Develop a responsive web application.
-- Perform CRUD operations using JavaScript.
-- Practice DOM manipulation.
-- Create a clean and modern dashboard.
-- Improve front-end development skills.
+ - Develop a responsive web application.
+ - Perform CRUD operations using JavaScript.
+ - Practice DOM manipulation.
+ - Create a clean and modern dashboard.
+ - Improve front-end development skills.
 
 ---
 
-# 🏗 System Architecture
+🏗 System Architecture
 
 ```
 User
@@ -97,9 +97,9 @@ Dynamic Dashboard
 
 ---
 
-# 🗄 Data Structure
+🗄 Data Structure
 
-### Student Table
+Student Table
 
 | Field | Description |
 |--------|-------------|
@@ -109,8 +109,7 @@ Dynamic Dashboard
 | Course | Course Name |
 
 ---
-
-# 🔄 Project Flow
+ 🔄 Project Flow
 
 ```
 Start
@@ -132,50 +131,9 @@ Display Student Table
    └── Search Student
    │
    ▼
-End
+  End
 ```
 
----
 
-# 📸 Screenshots
-
-## Dashboard
-
-Screenshot
-
-## Add Student
-
-![Student](screenshots/student.png)
-
-## Student List
-
-![List](screenshots/list.png)
-
----
-
-# 🚀 How to Run
-
-1. Clone this repository.
-2. Open the project folder.
-3. Open `index.html` in any web browser.
-4. Start managing student records.
-
----
-
-# 🔮 Future Enhancements
-
-- 💾 Local Storage
-- 🔐 Login Authentication
-- 📤 Export to PDF/Excel
-- 🗃 Database Integration
-- ☁ Cloud Deployment
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
-
----
 
 ## ⭐ If you like this project, don't forget to star the repository!
