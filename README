@@ -46,22 +46,22 @@ Student-Registration-Dashboard/
  📚 Modules
 
 📊 Dashboard
-Displays an overview of the application and student statistics.
+   Displays an overview of the application and student statistics.
 
 👨‍🎓 Student Management
-Add, edit, delete, and manage student information.
+   Add, edit, delete, and manage student information.
 
 📋 Student Records
-Displays all registered students in a responsive table.
+   Displays all registered students in a responsive table.
 
 🔍 Search
-Quickly search students by ID or Name.
+   Quickly search students by ID or Name.
 
 ✏️ Edit Records
-Update student details instantly.
+   Update student details instantly.
 
 🗑️ Delete Records
-Remove unwanted student records safely.
+   Remove unwanted student records safely.
 
 ---
 
